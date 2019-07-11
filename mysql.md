@@ -1,10 +1,10 @@
-#MySQL Command
+# MySQL Command
 ===
-##Install (on Ubuntu)
+## Install (on Ubuntu)
 ```bash
 sudo apt-get install -y mysql-server
 ```
-##connexion
+## connexion
 ```bash
 mysql -h localhosy -u root -p
 ```
