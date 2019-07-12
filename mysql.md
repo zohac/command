@@ -15,21 +15,26 @@ mysql -u root -p
 ## Save
 To backup all databases :
 ```bash
-mysqldump --user=username --password=password --all-databases > filename.sql
+mysqldump --user=[username] --password=[password] --all-databases > [filename].sql
 ```
 To backup one database :
 ```bash
-mysqldump --user=username --password=password --databases nom_de_la_base > filename.sql
+mysqldump --user=[username] --password=[password] --databases [database] > [filename].sql
 ```
 To back up multiple databases:
 ```bash
-mysqldump --user=username --password=password --databases database_1 database_2 > filename.sql
+mysqldump --user=[username] --password=[password] --databases [database_1] [database_2] > [filename].sql
 ```
 To save a specific table:
 ```bash
-mysqldump --user=username --password=password --databases nom_de_la_base --tables tableName > filename.sql
+mysqldump --user=[username] --password=[password] --databases [database] --tables [tableName] > [filename].sql
 ```
 To save several tables:
 ```bash
-mysqldump --user=username --password=password --databases nom_de_la_base --tables tableName_1 tableName_2 > filename.sql
+mysqldump --user=[username] --password=[password] --databases [database] --tables [tableName_1] [tableName_2] > [filename].sql
+```
+
+## Import
+```bash
+mysql --user=[username] --password=[password] [database] < [filename].sql
 ```
