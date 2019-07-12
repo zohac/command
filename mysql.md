@@ -5,7 +5,7 @@ sudo apt-get install -y mysql-server
 ```
 ## Connexion
 ```bash
-mysql -h localhosy -u root -p
+mysql -h localhost -u root -p
 ```
 OR
 ```bash
