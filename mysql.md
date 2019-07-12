@@ -1,5 +1,4 @@
 # MySQL Command
-===
 ## Install (on Ubuntu)
 ```bash
 sudo apt-get install -y mysql-server
