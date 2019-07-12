@@ -1,5 +1,5 @@
 # command
-Linux command
+## Linux command
 
-## [MySQL](https://github.com/zohac/command/blob/master/mysql.md)
-## [Zip](https://github.com/zohac/command/blob/master/zip.md)
+* [MySQL](https://github.com/zohac/command/blob/master/mysql.md)
+* [Zip](https://github.com/zohac/command/blob/master/zip.md)
