@@ -2,7 +2,9 @@
 
 ## Status
 
+```bash
 systemctl status [serviceName]
+```
 
 # Main command
 
