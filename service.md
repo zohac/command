@@ -6,7 +6,7 @@
 systemctl status [serviceName]
 ```
 
-# Main command
+## Main command
 
 ```bash
 service [serviceName] start
