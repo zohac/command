@@ -12,6 +12,24 @@ OR
 mysql -u root -p
 ```
 
+## Create a user
+```bash
+CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
+```
+```bash
+GRANT type_of_permission ON database_name.table_name TO ‘username’@'localhost’;
+```
+
+## Database
+### Create
+```bash
+CREATE DATABASE [dbname];
+```
+### Use
+```bash
+USE [dbname];
+```
+
 ## Save
 To backup all databases :
 ```bash
