@@ -1,5 +1,10 @@
-Create
-tar -zcvf tar-archive-name.tar.gz source-folder-name
+# Tar
+## Create
+```bash
+tar -zcvf [filename].tar.gz [filename-source]
+```
 
-extract
-tar -zxvf tar-archive-name.tar.gz
+## Extract
+```bash
+tar -zxvf [filename].tar.gz
+```
