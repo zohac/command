@@ -22,3 +22,8 @@ docker-compose stop
 ```bash
 docker run -it <image> /bin/bash
 ```
+
+### prune
+```bash
+docker system prune -a
+```
