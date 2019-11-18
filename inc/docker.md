@@ -22,6 +22,11 @@ docker-compose stop
 docker-compose run <image> bash
 ```
 
+### rebuild image
+```bash
+docker-compose build <image>
+```
+
 ## Docker
 ### bash console
 ```bash
@@ -29,11 +34,6 @@ docker run -it <image> /bin/bash
 ```
 
 ### prune
-```bash
-docker system prune -a
-```
-
-### rebuild image
 ```bash
 docker system prune -a
 ```
