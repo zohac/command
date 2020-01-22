@@ -7,4 +7,5 @@
 * [Rsync](https://github.com/zohac/command/blob/master/inc/rsync.md)
 * [Service](https://github.com/zohac/command/blob/master/inc/service.md)
 * [Tar](https://github.com/zohac/command/blob/master/inc/tar.md)
+* [User](https://github.com/zohac/command/blob/master/inc/user.md)
 * [Zip](https://github.com/zohac/command/blob/master/inc/zip.md)
