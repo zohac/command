@@ -13,20 +13,23 @@ mysql -u root -p
 ```
 
 ## Create a user
-```bash
+```mysql
 CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
 ```
-```bash
-GRANT type_of_permission ON database_name.table_name TO ‘username’@'localhost’;
+```mysql
+GRANT [type_of_permission] ON [database_name].[table_name] TO 'username'@'localhost';
+```
+```mysql
+GRANT ALL PRIVILEGES ON [database_name].[table_name] TO 'username'@'localhost' IDENTIFIED BY 'password';
 ```
 
 ## Database
 ### Create
-```bash
+```mysql
 CREATE DATABASE [dbname];
 ```
 ### Use
-```bash
+```mysql
 USE [dbname];
 ```
 
