@@ -1,4 +1,4 @@
-# Apache2
+# Rsync
 ## Install (Ubuntu)
 ```bash
 apt-get install rsync grsync
