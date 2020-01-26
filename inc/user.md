@@ -8,3 +8,16 @@ adduser [username]
 ```bash
 usermod -aG sudo [username]
 ```
+
+## Remove user (Ubuntu)
+```bash
+sudo su -
+```
+Then
+```bash
+userdel [username]
+```
+Or
+```bash
+userdel -r [username]
+```
