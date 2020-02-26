@@ -55,8 +55,9 @@ To save several tables:
 mysqldump --user=[username] --password=[password] --databases [database] --tables [tableName_1] [tableName_2] > [filename].sql
 ```
 ### To save and zip
+To backup and zip one database :
 ```bash
-[command] | zip > [database].sql.zip
+mysqldump --user=[username] --password=[password] --databases [database] | zip > [database].sql.zip
 ```
 ## Import
 ```bash
