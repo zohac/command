@@ -37,6 +37,10 @@ Create an account where the user can create databases:
 CREATE USER manuel WITH PASSWORD 'jw8s0F4' CREATEDB;
 ```
 
+```postgresql
+GRANT ALL PRIVILEGES ON DATABASE mydb TO myuser;
+```
+
 ## Database
 ### Create
 To create a new database:
